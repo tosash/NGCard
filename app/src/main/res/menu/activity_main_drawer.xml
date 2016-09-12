@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/gTop"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_review"
+            android:icon="@drawable/ic_vacations"
+            android:title="Обзор" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_news"
+            android:title="Транзакции" />
+
+        <item
+            android:id="@+id/nav_messages"
+            android:icon="@drawable/ic_messages"
+            android:title="Уведомления"
+            app:actionLayout="@layout/menu_counter" />
+
+        <item
+            android:id="@+id/nav_tt"
+            android:icon="@drawable/ic_map"
+            android:title="Торговые точки" />
+
+    </group>
+
+    <group
+        android:id="@+id/gBottom"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_settings"
+            android:title="Настройки" />
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/ic_logout"
+            android:title="Выход" />
+    </group>
+
+</menu>

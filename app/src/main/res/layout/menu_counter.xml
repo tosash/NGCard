@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/ico_uv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="2dp"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@+id/counterUv"
+        android:layout_toRightOf="@+id/counterUv" />
+
+    <TextView
+        android:id="@+id/counterUv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:gravity="start|center_vertical"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/colorGrayMain"
+        android:textSize="15sp" />
+</RelativeLayout>
